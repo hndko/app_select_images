@@ -8,13 +8,14 @@ require_once 'config/config.php';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="<?= $base_url ?>assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Select Image With Javascript</title>
+    <link href="<?= $base_url ?>assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
-    <script src="<?= $base_url ?>assets/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <?php require_once 'partikel/navbar.php' ?>
+
+    <script src="<?= $base_url ?>assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
